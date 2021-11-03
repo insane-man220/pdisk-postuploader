@@ -155,11 +155,5 @@ if __name__ == "__main__" :
         api_id=API_ID,
         plugins=plugins
     )
-
-async def addFooter(str):
-    footer = """
-━━━━━━━━━━━━━━━
-⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
-    return str + footer
-
+app.run()
 bot.run()
