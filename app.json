@@ -16,6 +16,23 @@
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
             "value": "4348312"
+},
+        "PDISK_USERNAME": {
+            "description": "Your PDisk Account Username/Email",
+            "required": true
+        },
+        "PDISK_PASSWORD": {
+            "description": "Your PDisk Account Password",
+            "required": true
+        },
+        "MAX_RESULTS": {
+            "description": "Max Search Results Number",
+            "required": true
+        },
+        "PDISK_DOMAIN": {
+            "description": "PDisk Default Domain",
+            "required": false,
+            "value": "https://www.pdisk.me/"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
