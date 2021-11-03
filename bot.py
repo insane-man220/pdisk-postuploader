@@ -149,7 +149,7 @@ if __name__ == "__main__" :
     )
     app = Client(
         "pdisk",
-        bot_token=TOKEN,
+        bot_token=BOT_TOKEN,
         api_hash=API_HASH,
         api_id=API_ID,
         plugins=plugins
