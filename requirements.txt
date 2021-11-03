@@ -5,3 +5,5 @@ requests
 bs4
 pymongo
 dnspython
+selenium
+python-dotenv
