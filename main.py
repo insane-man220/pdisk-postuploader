@@ -9,6 +9,9 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
+API_ID = environ.get('API_ID')
+API_HASH = environ.get('API_HASH')
+BOT_TOKEN = environ.get('BOT_TOKEN')
 PDISK_API_KEY = environ.get('PDISK_API_KEY')
 THUMB_URL = environ.get('THUMB_URL', 'https://telegra.ph/file/1181d9119a13988dfe29c.jpg')
 CHANNEL = environ.get('CHANNEL')
